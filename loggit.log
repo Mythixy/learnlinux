@@ -1,0 +1,12 @@
+logini=$(git log)
+echo $logini
+
+hari=$(date +%A)
+grepini=$(grep "$hari" $logini)
+
+echo $grepini
+
+#for (i=0
+#	if ( ${logini[i]} = ${logini[i+1]} )
+#		then count=count+1
+#	else 
